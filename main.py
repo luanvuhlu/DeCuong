@@ -4,7 +4,6 @@ from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
 from google.appengine.ext.webapp.util import run_wsgi_app
 
-
 BASE_PATH = os.path.dirname(__file__)
 
 class About(webapp.RequestHandler):
